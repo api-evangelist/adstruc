@@ -1,8 +1,12 @@
 aid: adstruc
 name: ADstruc
-description: ADstruc is a company surfaced as a portfolio company of techstars, uncork-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: ADstruc is a technology platform for the out-of-home (OOH) advertising industry, founded
+  in 2010 in New York City by John Laramie and Sam Herbert. It provides workflow-automation software,
+  including its Drive product, that lets brands and agencies plan, buy, and manage traditional and
+  digital out-of-home media campaigns, and gives OOH operators cloud-based tools to manage and promote
+  their inventory and interact with clients in real time. ADstruc was acquired by Vistar Media in April
+  2024 and now operates as part of its programmatic out-of-home advertising stack. No public developer
+  API or documentation surface has been identified for ADstruc at this time.
 url: https://raw.githubusercontent.com/api-evangelist/adstruc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +15,30 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.adstruc.com/images/homepage/pigeon_favicon.ico
 tags:
 - Company
+- Advertising
+- Out-of-Home
+- OOH
+- AdTech
+- Digital Out-of-Home
+- Media Buying
+- Marketing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/adstruc-domain-security.yml
 - type: Website
   url: https://adstruc.com/
+- type: Login
+  url: https://www.adstruc.com/login
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
