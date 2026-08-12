@@ -1,0 +1,23 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.vistarmedia.com/adstruc
+docs: https://www.vistarmedia.com/adstruc
+plan_count: 0
+currency: null
+billing_model: contact-sales
+note: >-
+  ADstruc publishes no pricing of any kind. www.adstruc.com is now a single splash page —
+  /pricing, /product, /contact and /demo all return HTTP 404 — and since Vistar Media
+  acquired the product in April 2024 it is marketed as "Adstruc by Vistar Media" at
+  https://www.vistarmedia.com/adstruc, which carries feature copy and a "GET IN TOUCH"
+  call to action but no tiers, prices, quotas or trial. https://www.vistarmedia.com/pricing
+  returns 200 but publishes no plan names, prices or quotas either. This is an honest zero:
+  the sale is a sales conversation, not a self-serve plan.
+plans: []
+evidence:
+- url: https://www.adstruc.com/pricing
+  status: 404
+- url: https://www.vistarmedia.com/adstruc
+  status: 200
+- url: https://www.vistarmedia.com/pricing
+  status: 200

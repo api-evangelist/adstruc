@@ -1,0 +1,61 @@
+generated: '2026-08-12'
+method: probed
+source: live HTTP probes of https://www.adstruc.com (the only host ADstruc operates)
+note: >-
+  Every /.well-known/ path probed on the single ADstruc host returned HTTP 404 with a
+  Symfony JSON routing error ({"code":404,"message":"No route found for ..."}), which is a
+  genuine absence rather than an SPA catch-all. No document was served, so NO WellKnown or
+  SecurityTxt pointer is emitted in apis.yml — this file records an absence, not a presence.
+  ADstruc runs no api.*, docs.*, developer.* or app.* subdomain (all NXDOMAIN), so there is
+  no second host to probe.
+hosts_probed:
+- https://www.adstruc.com
+- https://adstruc.com (301 -> https://www.adstruc.com)
+hosts_not_resolving:
+- api.adstruc.com
+- app.adstruc.com
+- docs.adstruc.com
+- developer.adstruc.com
+- developers.adstruc.com
+- drive.adstruc.com
+- my.adstruc.com
+- admin.adstruc.com
+- tech.adstruc.com
+- news.adstruc.com
+host: https://www.adstruc.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /.well-known/agent-card.json
+  status: 404
+  file: null
+- path: /.well-known/agent.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
+- path: /openapi.json
+  status: 404
+  file: null
+- path: /robots.txt
+  status: 200
+  file: null
+  note: >-
+    Served, but robots.txt is not a /.well-known/ discovery document and carries no API
+    information — it is a two-line allow-all with no Sitemap directive. Recorded for
+    completeness only; it earns no pointer.
+found: 0
