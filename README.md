@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ADstruc is a company surfaced as a portfolio company of techstars, uncork-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+ADstruc is a technology platform for the out-of-home (OOH) advertising industry, founded in 2010 in New York City by John Laramie and Sam Herbert. It provides workflow-automation software, including its Drive product, that lets brands and agencies plan, buy, and manage traditional and digital out-of-home media campaigns, and gives OOH operators cloud-based tools to manage and promote their inventory and interact with clients in real time. ADstruc was acquired by Vistar Media in April 2024 (from PJX Media) and the product is now sold as "Adstruc by Vistar Media" as part of that company's out-of-home advertising stack. ADstruc publishes no public developer API, portal, SDK or machine-readable contract of its own. The www.adstruc.com site is now a splash page whose only live routes are / and /login, and every developer and /.well-known/ path returns 404. The SSP and DSP APIs at developers.vistarmedia.com belong to Vistar Media, name Vistar hosts, and never mention ADstruc, so they are profiled under Vistar Media rather than credited here.
 
-Backed by: techstars, uncork-capital — https://adstruc.com/
+**Areas:** Company · Advertising · Out-of-Home · OOH · AdTech · Digital Out Of Home · Media Buying · Marketing
+
+## ADstruc on APIs.io
+
+Everything profiled for ADstruc is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adstruc/](https://apis.io/providers/adstruc/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adstruc Domain Security](https://apis.io/security/adstruc/adstruc-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Adstruc Plans Pricing](https://apis.io/plans/adstruc/adstruc-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://adstruc.com/)
+
+## API Evangelist rating
+
+**Kin Score 4.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 6.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adstruc/](https://apis.io/providers/adstruc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ADstruc: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adstruc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
