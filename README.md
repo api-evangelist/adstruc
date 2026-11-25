@@ -66,7 +66,7 @@
 
 ADstruc is a technology platform for the out-of-home (OOH) advertising industry, founded in 2010 in New York City by John Laramie and Sam Herbert. It provides workflow-automation software, including its Drive product, that lets brands and agencies plan, buy, and manage traditional and digital out-of-home media campaigns, and gives OOH operators cloud-based tools to manage and promote their inventory and interact with clients in real time. ADstruc was acquired by Vistar Media in April 2024 (from PJX Media) and the product is now sold as "Adstruc by Vistar Media" as part of that company's out-of-home advertising stack. ADstruc publishes no public developer API, portal, SDK or machine-readable contract of its own. The www.adstruc.com site is now a splash page whose only live routes are / and /login, and every developer and /.well-known/ path returns 404. The SSP and DSP APIs at developers.vistarmedia.com belong to Vistar Media, name Vistar hosts, and never mention ADstruc, so they are profiled under Vistar Media rather than credited here.
 
-**Areas:** Company · Advertising · Out-of-Home · OOH · AdTech · Digital Out Of Home · Media Buying · Marketing
+**Areas:** Company · Advertising · Out-of-Home · AdTech · Digital Out Of Home · Media Buying · Marketing
 
 ## ADstruc on APIs.io
 
@@ -80,13 +80,13 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adstruc Domain Security](https://apis.io/security/adstruc/adstruc-domain-security/)
+- [ADstruc Domain Security](https://apis.io/security/adstruc/adstruc-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adstruc Plans Pricing](https://apis.io/plans/adstruc/adstruc-plans-pricing/)
+- [ADstruc Plans Pricing](https://apis.io/plans/adstruc/adstruc-plans-pricing/)
 
 ## Where to find this API
 
@@ -96,7 +96,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 4.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 4.7** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
@@ -105,7 +105,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 0.0 |
-| Access clarity | 6.6 |
+| Access clarity | 10.6 |
 
 **Agent readiness 0.0** — human-only
 
@@ -130,8 +130,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adstruc/](https://apis.io/providers/adstruc/).
 
